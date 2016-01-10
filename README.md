@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/GtTmKUo.png" alt="screenshot"/>
 
-**TorrentSaga** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
+> **TorrentSaga** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
 
 ### Features
 
@@ -32,10 +32,9 @@ Click this button to deploy *TorrentSaga* to *Heroku* for free...
 **Credits**
 
 Credits to `anacrolix` for https://github.com/anacrolix/torrent
-
 Credits to `jpillora` for https://github.com/jpillora/cloud-torrent
 
-
+___
 #### MIT License
 
 Copyright © 2016 Jaswinder Singh
