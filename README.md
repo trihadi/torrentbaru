@@ -31,7 +31,7 @@ Click this button to deploy *TorrentSaga* to *Heroku* for free...
 
 **Credits**
 
-Credits to `anacrolix` for https://github.com/anacrolix/torrent
+Credits to `anacrolix` for https://github.com/anacrolix/torrent<br>
 Credits to `jpillora` for https://github.com/jpillora/cloud-torrent
 
 ___
