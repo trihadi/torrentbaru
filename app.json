@@ -1,0 +1,15 @@
+{
+	"name": "torrentsaga",
+	"website": "https://github.com/jaswinder-singh/torrentsaga",
+	"repository": "https://github.com/jaswinder-singh/torrentsaga",
+	"env": {
+		"TITLE": {
+			"description": "Optionally set the title of this instance (defaults to 'TorrentSaga')",
+			"required": false
+		},
+		"AUTH": {
+			"description": "Optional HTTP authentication in the form user:password",
+			"required": false
+		}
+	}
+}
