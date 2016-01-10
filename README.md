@@ -21,7 +21,7 @@ $ go get -v github.com/jaswinder-singh/torrentsaga/
 
 **Heroku**
 
-Click this button to deploy *TorrentSaga* to *Heroku* for free...
+Click this button to deploy *TorrentSaga* to *Heroku* free of cost...
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
@@ -34,6 +34,7 @@ Click this button to deploy *TorrentSaga* to *Heroku* for free...
 Credits to `anacrolix` for https://github.com/anacrolix/torrent<br>
 Credits to `jpillora` for https://github.com/jpillora/cloud-torrent
 
+<br>
 ___
 #### MIT License
 
