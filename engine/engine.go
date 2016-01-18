@@ -13,6 +13,7 @@ import (
 	"github.com/anacrolix/torrent"
 )
 
+//the Engine Cloud Torrent engine, backed by anacrolix/torrent
 type Engine struct {
 	mut      sync.Mutex
 	cacheDir string

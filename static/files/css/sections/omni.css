@@ -1,3 +1,5 @@
+
+
 .omni {
 	margin-top: 5px;
 }
@@ -44,8 +46,11 @@
 	color: #888;
 	border: none;
 	outline: none;
-	height: 32px;
+	height: 31px;
 	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	cursor: pointer;
 }
 .omni .form {

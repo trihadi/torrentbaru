@@ -1,1 +1,1 @@
-web: torrentsaga
+web: cloud-torrent

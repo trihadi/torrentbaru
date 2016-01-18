@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css/Lato/Lato.css">
 		<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="css/icomoon.css">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="icon" href="torrentsaga-favicon.png" type="image/x-icon" />
 		<meta name="description" content="Use this web service that gives you direct download links from any torrent. Manage your downloads privately and safely."/>
@@ -28,18 +29,18 @@
 					ng-init="logoHover = false"
 					ng-mouseover="logoHover = true"
 					ng-mouseleave="logoHover = false">
-					<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i>  {{ state.Stats.Title }}
+					<i class="blue icon" ng-class="{github:!logoHover, icon-happy: logoHover}"></i>  {{ state.Stats.Title }}
 				</a>
 			</h2>
 			<div class="status">
 				<i ng-show="request.count > 0"
 					class="ui circular loading repeat icon"></i>
 				<i ng-click="$root.config.edit = !$root.config.edit;" ng-class="{green: $root.config.edit}"
-					class="ui circular server icon" style="font-size: 14px;"></i>
+					class="ui circular icon-gear icon" style="font-size: 14px;"></i>
 				<i ng-click="$root.omni.edit = !$root.omni.edit;"
 					ng-class="{green: $root.omni.edit}"
 					class="ui circular magnet icon" style="font-size: 14px;"></i>
-				<i class="ui circular lightning icon"
+				<i class="ui circular icon-connection icon"
 					ng-class="{ green: connected, red: !connected }"></i>
 			</div>
 		</div>
