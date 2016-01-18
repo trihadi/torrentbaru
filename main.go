@@ -7,13 +7,13 @@ import (
 	"github.com/jpillora/opts"
 )
 
-var VERSION = "0.0.0-src" //set with ldflags
+var VERSION = "0.1.0-src" //set with ldflags
 
 func main() {
 	s := server.Server{
 		Title:      "TorrentSaga",
 		Port:       3000,
-		ConfigPath: "torrentsaga.json",
+		ConfigPath: "settings.json",
 	}
 
 	o := opts.New(&s)
