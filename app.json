@@ -4,7 +4,7 @@
 	"repository": "https://github.com/jaswinder-singh/torrentsaga",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'TorrentSaga')",
+			"description": "Optionally set the title of this instance (default 'TorrentSaga')",
 			"required": false
 		},
 		"AUTH": {
