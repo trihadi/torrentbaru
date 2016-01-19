@@ -60,7 +60,7 @@
 .icon-connection:before {
     content: "\e901";
 }
-.icon-happy:before {
+.happy:before {
     content: "\e902";
 }
 .icon-happy2:before {
@@ -69,13 +69,13 @@
 .icon-wink:before {
     content: "\e904";
 }
-.icon-wink2:before {
+.wink:before {
     content: "\e905";
 }
 .icon-grin:before {
     content: "\e906";
 }
-.icon-grin2:before {
+.grin:before {
     content: "\e907";
 }
 .icon-cool:before {
