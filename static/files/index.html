@@ -29,7 +29,7 @@
 					ng-init="logoHover = false"
 					ng-mouseover="logoHover = true"
 					ng-mouseleave="logoHover = false">
-					<i class="blue icon" ng-class="{github:!logoHover, icon-happy: logoHover}"></i>  {{ state.Stats.Title }}
+					<i class="blue icon" ng-class="{cloud:!logoHover, github:logoHover}"></i>  {{ state.Stats.Title }}
 				</a>
 			</h2>
 			<div class="status">
@@ -40,7 +40,7 @@
 				<i ng-click="$root.omni.edit = !$root.omni.edit;"
 					ng-class="{green: $root.omni.edit}"
 					class="ui circular magnet icon" style="font-size: 14px;"></i>
-				<i class="ui circular icon-connection icon"
+				<i class="ui circular lightning icon"
 					ng-class="{ green: connected, red: !connected }"></i>
 			</div>
 		</div>
