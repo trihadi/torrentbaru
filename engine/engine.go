@@ -181,20 +181,6 @@ func (e *Engine) StopTorrent(infohash string) error {
 	return nil
 }
 
-func (e *Engine) DeleteTorrent(infohash string) error {
-	t, err := e.getTorrent(infohash)
-	if err != nil {
-		return err
-	}
-	os.Remove(filepath.Join(e.cacheDir, infohash+".torrent"))
-	delete(e.ts, t.InfoHash)
-	ih, _ := str2ih(infohash)
-	if tt, ok := e.client.Torrent(ih); ok {
-		tt.Drop()
-	}
-	return nil
-}
-
 func (e *Engine) StartFile(infohash, filepath string) error {
 	t, err := e.getOpenTorrent(infohash)
 	if err != nil {
